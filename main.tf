@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 resource "aws_vpc" "app_vpc" {
   cidr_block           = var.address_space
   enable_dns_hostnames = true
