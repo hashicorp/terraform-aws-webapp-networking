@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2021, 2026
+
 resource "aws_vpc" "app_vpc" {
   cidr_block           = var.address_space
   enable_dns_hostnames = true
