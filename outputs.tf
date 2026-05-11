@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2021, 2026
+
 output "vpc_security_group_ids" {
   description = "IDs for security groups"
   value = aws_security_group.webapp_security_group.id
